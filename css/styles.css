@@ -1,0 +1,228 @@
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --background-color: #2f303a;
+  --button-hover-color: #188ce8;
+  --button-portfolio-color: #f5f4fa;
+  --rgba-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* -----------------------------HEDER--------------------------- */
+
+.header {
+  background-color: var(--white-color);
+}
+
+.header-logo,
+.footer-logo {
+  color: var(--black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.first-logo {
+  color: var(--accent-color);
+}
+
+.header-link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.studio,
+.portfolio {
+  color: var(--accent-color);
+}
+
+.header-mail,
+.header-tel {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+/* ----------------------------HERO----------------------------- */
+.hero {
+  background-color: var(--background-color);
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--white-color);
+  background-color: var(--button-hover-color);
+}
+
+/* ------------------------------STUDIO--------------------------- */
+
+.section-studio-subtitle {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.section-studio-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* -----------------------------WORKERS-------------------------- */
+.section-workers {
+  background-color: #f5f4fa;
+}
+.section-workers-subtitle,
+.section-workers-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.section-workers-subtitle {
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+/* ----------------------------CONTACTS----------------------------- */
+.footer {
+  background-color: var(--background-color);
+}
+.footer-logo {
+  color: var(--white-color);
+}
+.contacts {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-mail,
+.footer-tel {
+  color: var(--rgba-color);
+}
+.footer-address:hover,
+.footer-address:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+
+/* ______________________________PORTFOLIO___________________________ */
+
+.filter-button {
+  color: var(--title-color);
+  background-color: var(--button-portfolio-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
