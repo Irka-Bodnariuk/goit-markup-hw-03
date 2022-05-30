@@ -74,6 +74,11 @@ p {
   padding-right: 15px;
 }
 
+.section-content {
+  padding-top: var(--tipical-padding);
+  padding-bottom: var(--tipical-padding);
+}
+
 /* -----------------------------HEDER--------------------------- */
 .header {
   background-color: var(--white-color);
@@ -155,13 +160,11 @@ p {
 
 /* ----------------------------HERO----------------------------- */
 .hero {
-  background-color: var(--background-color);
-  text-align: center;
-}
-
-.hero-content {
   padding-top: 200px;
   padding-bottom: 200px;
+
+  background-color: var(--background-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -189,7 +192,7 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  border: 1px solid #000000;
+  border: none;
   border-radius: 4px;
 }
 
@@ -201,9 +204,6 @@ p {
 
 /* ------------------------------STUDIO--------------------------- */
 .section-studio {
-  padding-top: var(--tipical-padding);
-  padding-bottom: var(--tipical-padding);
-
   background-color: var(--white-color);
 }
 
@@ -235,8 +235,7 @@ p {
 
 /* -----------------------SECTION PORTFOLIO------------------------- */
 .section-portfolio {
-  padding-bottom: var(--tipical-padding);
-
+  padding-top: 0;
   background-color: var(--white-color);
 }
 .section-portfolio-list {
@@ -252,10 +251,7 @@ p {
 
 /* -----------------------------WORKERS-------------------------- */
 .section-workers {
-  padding-top: var(--tipical-padding);
-  padding-bottom: var(--tipical-padding);
-
-  background-color: #f5f4fa;
+  background-color: var(--button-portfolio-color);
 }
 .section-workers-list {
   display: flex;
@@ -334,20 +330,14 @@ p {
 }
 
 /* ______________________________PORTFOLIO___________________________ */
-.portfolio-box {
-  padding-top: var(--tipical-padding);
-  padding-bottom: var(--tipical-padding);
-}
-
-.filters {
-  padding-bottom: 50px;
-
+.portfolio {
   background-color: var(--white-color);
 }
 
 .filter-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-item:not(:first-child) {
@@ -376,9 +366,6 @@ p {
   background-color: var(--accent-color);
 }
 
-.portfolio {
-  background-color: var(--white-color);
-}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
